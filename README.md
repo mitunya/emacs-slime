@@ -19,6 +19,8 @@ slime-eval-last-expression-in-repl2 - Evaluates last expression in the Slime REP
 
 # output example : slime-eval-print-last-expression
 
+edit in *slime-scratch* buffer. or lisp-mode buffer.
+
 ```lisp
 (defparameter *test-string* "Hello World") [CTRL-j]
  ; => *TEST-STRING*
